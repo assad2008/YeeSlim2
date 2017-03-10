@@ -1,0 +1,27 @@
+{
+    "require": {
+        "slim/slim": "^3.7",
+        "guzzlehttp/guzzle": "^6.2",
+        "sabre/uri": "^2.1",
+        "gregwar/captcha": "^1.1",
+        "ngfw/recipe": "^1.2",
+        "nesbot/carbon": "^1.22",
+        "tracy/tracy": "^2.4",
+        "hautelook/phpass": "^1.1",
+        "zf1/zend-registry": "^1.12",
+        "digitalnature/php-ref": "^1.2",
+        "slim/twig-view": "^2.2",
+        "akrabat/rka-ip-address-middleware": "^0.5.0",
+        "monolog/monolog": "^1.22",
+        "illuminate/database": "^5.4",
+        "doctrine/cache": "^1.6"
+    },
+    "autoload": {
+       "files": [
+        "vendor/Myext/Functions/Functions.php"
+     ],
+      "classmap": [
+        "vendor/Myext/Libs"
+     ]
+   }
+}
