@@ -25,6 +25,10 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         array (
             'ngfw\\' => 5,
         ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -80,6 +84,10 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         'ngfw\\' => 
         array (
             0 => __DIR__ . '/..' . '/ngfw/recipe/src/ngfw',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
