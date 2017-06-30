@@ -15,7 +15,7 @@ Debugger::enable(Debugger::DEVELOPMENT);
 Debugger::$showBar = False;
 $config = require YEESLIM . 'config.php';
 require YEESLIM . 'bootstrap.php';
-foreach (glob(ROUTERDIR . '*.php') AS $router) {
+foreach (glob(ROUTERDIR . '*.php') as $router) {
 	require_once $router;
 }
 $app->run();
