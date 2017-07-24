@@ -72,6 +72,7 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         ),
         'D' => 
         array (
+            'Doctrine\\Common\\Inflector\\' => 26,
             'Doctrine\\Common\\Cache\\' => 22,
         ),
         'C' => 
@@ -169,6 +170,10 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
@@ -210,13 +215,6 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
             'Hautelook' => 
             array (
                 0 => __DIR__ . '/..' . '/hautelook/phpass/src',
-            ),
-        ),
-        'D' => 
-        array (
-            'Doctrine\\Common\\Inflector\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
             ),
         ),
     );
