@@ -10,5 +10,4 @@ return array(
     'Zend_Exception' => array($vendorDir . '/zf1/zend-exception/library'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Pimple' => array($vendorDir . '/pimple/pimple/src'),
-    'Hautelook' => array($vendorDir . '/hautelook/phpass/src'),
 );

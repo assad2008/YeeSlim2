@@ -13,10 +13,9 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        '383eaff206634a77a1be54e64e6459c7' => __DIR__ . '/..' . '/sabre/uri/lib/functions.php',
-        '7cca0da9604df282f16d129f538c9833' => __DIR__ . '/..' . '/digitalnature/php-ref/ref.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '7745382c92b7799bf1294b1f43023ba2' => __DIR__ . '/..' . '/tracy/tracy/src/shortcuts.php',
+        '2208db94ce05fb2f82040fa4f2ccdbe6' => __DIR__ . '/..' . '/leeoniya/dump-r/dump_r.php',
         '2980ecea46b6468639b6a2814cbb8e8a' => __DIR__ . '/..' . '/Myext/Functions/Functions.php',
     );
 
@@ -24,6 +23,10 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         'n' => 
         array (
             'ngfw\\' => 5,
+        ),
+        'd' => 
+        array (
+            'dump_r\\' => 7,
         ),
         'T' => 
         array (
@@ -35,7 +38,6 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
             'Symfony\\Component\\Translation\\' => 30,
             'Slim\\Views\\' => 11,
             'Slim\\' => 5,
-            'Sabre\\Uri\\' => 10,
         ),
         'R' => 
         array (
@@ -64,7 +66,6 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
-            'Gregwar\\Captcha\\' => 16,
         ),
         'F' => 
         array (
@@ -86,6 +87,10 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         array (
             0 => __DIR__ . '/..' . '/ngfw/recipe/src/ngfw',
         ),
+        'dump_r\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/leeoniya/dump-r/src/dump_r',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -105,10 +110,6 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
-        ),
-        'Sabre\\Uri\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/sabre/uri/lib',
         ),
         'RKA\\Middleware\\' => 
         array (
@@ -162,10 +163,6 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Gregwar\\Captcha\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/gregwar/captcha',
-        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
@@ -208,13 +205,6 @@ class ComposerStaticInit4f955c291447d919b9f2a37e5f7808cc
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
-            ),
-        ),
-        'H' => 
-        array (
-            'Hautelook' => 
-            array (
-                0 => __DIR__ . '/..' . '/hautelook/phpass/src',
             ),
         ),
     );
