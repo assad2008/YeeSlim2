@@ -1,14 +1,22 @@
 <?php
 
 /**
- * @file functions_helper.php
- * @synopsis  自定义函数
- * @author Yee, <rlk002@gmail.com>
- * @version 1.0
- * @date 2012-10-14 00:18:41
+ * @Filename: Functions.php
+ * @Author: assad
+ * @Date:   2017-08-16 09:54:10
+ * @Synopsis: 功能函数
+ * @Version: 1.0
+ * @Last Modified by:   assad
+ * @Last Modified time: 2017-08-16 10:09:19
+ * @Email: rlk002@gmail.com
  */
 
-function debug($var = null, $type = 2)
+/**
+ * 调试
+ *
+ * @param      <type>   $var    The variable
+ */
+function debug($var = null)
 {
     if ($var === null) {
         $var = $GLOBALS;
@@ -17,6 +25,13 @@ function debug($var = null, $type = 2)
     exit(0);
 }
 
+/**
+ * 随机码生成
+ *
+ * @param      integer  $tokenLen  长度
+ *
+ * @return     string   ( description_of_the_return_value )
+ */
 function gensign($tokenLen = 60)
 {
     if (file_exists('/dev/urandom')) {
